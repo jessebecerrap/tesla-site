@@ -1,0 +1,33 @@
+---
+import Section from "./Section.astro"
+---
+
+<Section
+  title="Accesorios"
+  text=""
+  color="black"
+  id="accesories"
+>
+  <div slot="footer" class="gap-x-6 flex mx-auto">
+    <a
+      class="bg-white text-sm rounded font-medium text-black px-12 py-2 inline-block transition-colors hover:bg-[#393c41] hover:text-white"
+      href="#"
+    >
+     Compra ahora</a
+    >
+    <!-- <a
+      class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
+      href="#"
+    >
+      Saber más</a
+    > -->
+  </div>
+
+  <img
+    slot="background"
+    alt="Accesorios"
+    class="h-full w-full object-cover object-center"
+    src="Accessories1.avif"
+    id="bg-image-accessories"
+  />
+</Section>
