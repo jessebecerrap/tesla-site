@@ -1,3 +1,7 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
 <footer
 
   class="py-3 px-10 flex justify-center items-center w-full text-[#eeeeee] text-xs font-semibold bg-black"
@@ -8,7 +12,7 @@
 
     <ul class="flex flex-wrap [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:py-2">
 
-      <li><a href="#">Tesla © 2024</a></li>
+      <li><a href="#">Tesla &copy; {currentYear}</a></li>
       <li><a href="#">Privacidad y legal</a></li>
       <li><a href="#">Llamadas a revisión de vehiculos</a></li>
       <li><a href="#">Contacto</a></li>
